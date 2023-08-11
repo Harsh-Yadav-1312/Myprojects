@@ -1,0 +1,124 @@
+
+/* common css starts */
+body {
+    margin: 0px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 40px;
+
+}
+
+.menu li {
+    float: left;
+    padding: 20px 20px;
+
+    /* or  padding-top: 20px;
+    padding-bottom: 20px; */
+
+}
+
+
+.menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.text-hi {
+    font-size: 80px;
+
+}
+
+.intro {
+    font-size: 55px;
+
+}
+
+.description {
+    font-size: 35px;
+
+}
+
+.banner-text {
+    float: left;
+}
+
+.banner-img {
+    float: right;
+}
+
+.bat {
+    text-align: center;
+    color: rgb(19, 114, 114);
+    font-size: 30px;
+    background-color: rgb(127, 152, 144);
+    border-radius: 60px;
+
+}
+
+.margin {
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    padding-top: 10px;
+}
+
+
+
+/* about me starts */
+
+.about-me-img {
+    padding-top: 4%;
+    padding-t: 4%;
+    float: left;
+
+
+}
+
+
+.about-me-description {
+    padding-top: 4%;
+    padding-left: 20%;
+    float: left;
+    width: 50%;
+
+}
+
+.about-me-description h4 {
+    font-size: 25px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+/* to align image at the center position */
+
+/* about me ends */
+
+#shirahoshi {
+    font-size: 200px;
+}
+
+.footer {
+    padding-top: 40px;
+}
+
