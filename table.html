@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+ 
+<!-- select all(cntrl A),cntrl k,cntrl f -->
+<!-- this shortcut helps in proper formating of code -->
+<head>
+    <title>My first table</title>
+    <style>
+        table,
+        td,
+        th,
+        tr {
+            /* we are giving border to all attributes of the table */
+            border: 1.8px solid black;
+            /* gives border to the table and solid black will give straight line also dotted is used to give dotted lines */
+            border-collapse: collapse;
+            /* to collapse the double double lines at the border || ---> | */
+            /* background-color: rgb(223, 179, 223); */
+        }
+    </style>
+
+    <style>
+        th {
+            padding-bottom: 20px;
+        }
+
+        /* provides padding to the headings in the table */
+        table {
+            width: 900px;
+        }
+
+        /* we defined width of 900 px in the table so all elements in the table looks proper */
+        td {
+            padding-left: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        /* padding is given to provide space */
+
+        tr:nth-child(odd) {
+            background-color: rgb(251, 170, 170);
+        }
+
+        /* gives background color to only odd number of rows because tr
+            if th is used then color will be given to odd number of column in heads */
+
+        th:nth-child(odd) {
+            background-color: aquamarine;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table>
+        <tr>
+            <!-- table headings starts here -->
+            <th>sr</th>
+            <th> student</th>
+            <th>semester</th>
+            <th>subject</th>
+            <th>subject marks</th>
+            <th>semester %</th>
+            <th>aggregate %</th>
+            <th>qualified?</th>
+
+        </tr>
+        <!-- table headings ends here -->
+
+        <!-- table row for 1st student harsh starts here -->
+        <tr>
+            <td rowspan="8">1</td>
+            <td rowspan="8"> harsh</td>
+            <td rowspan="4"> I</td>
+            <td>maths</td>
+            <td>88</td>
+            <td>71</td>
+            <td>65</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+
+
+
+            <td>hindi</td>
+            <td>82</td>
+            <td>71</td>
+            <td>65</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+
+
+
+            <td>english</td>
+            <td>80</td>
+            <td>71</td>
+            <td>65</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+
+
+
+            <td>dsa</td>
+            <td>76</td>
+            <td>71</td>
+            <td>65</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+
+
+            <td rowspan="4"> II</td>
+            <td>maths</td>
+            <td>79</td>
+            <td>71</td>
+            <td>65</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+
+
+
+            <td>hindi</td>
+            <td>81</td>
+            <td>71</td>
+            <td>65</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+
+
+
+            <td>english</td>
+            <td>56</td>
+            <td>71</td>
+            <td>65</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+
+
+
+            <td>dsa</td>
+            <td>69</td>
+            <td>71</td>
+            <td>65</td>
+            <td>yes</td>
+        </tr>
+        <!-- table row for 1st student harsh ends here -->
+    </table>
+
+</body>
+
+
+</html>
